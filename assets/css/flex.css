@@ -1,0 +1,32 @@
+@import 'reset.css';
+
+
+.container {
+    width: 50%;
+    height: 90vh;
+    border: solid 0.5px purple;
+    display: flex;
+    flex-direction: row;
+    /* alinhamento verticar */
+    align-items: flex-end;
+    /* alinhamento horizontal */
+    justify-content: center;
+    margin: 5% auto;
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: solid 0.5px #333;
+}
+
+.container > div.item-5 {
+    color: red;
+}
+.container > div.item-4 {
+    color: red;
+    flex: 1;
+}
